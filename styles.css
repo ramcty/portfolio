@@ -315,7 +315,8 @@ a:hover {
     }
 
     .heading {
-        padding-top: 100px;
+        padding-top: 80px;
+
     }
 
     .heading h1 {
@@ -351,4 +352,11 @@ a:hover {
 
 
 
+}
+
+@media screen and (max-width: 1000px) {
+    .heading {
+        padding-top: 250px;
+
+    }
 }
