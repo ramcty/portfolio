@@ -314,6 +314,10 @@ a:hover {
         display: flex;
     }
 
+    .heading {
+        padding-top: 50px;
+    }
+
     .heading h1 {
 
         font-size: 30px;
