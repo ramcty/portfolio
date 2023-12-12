@@ -15,6 +15,12 @@
 </head>
 
 <body>
+
+    <!--   testing-->
+
+
+
+
     <nav id="desktop-nav">
         <div class="logo">Ramona Chounlamountry</div>
         <div>
@@ -30,16 +36,16 @@
     <nav id="hamburger-nav">
         <div class="logo">Ramona Chounlamountry</div>
         <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
                 <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            </label>
 
-            </div>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="about.html">About</a></li>
+                <li><a class="menu__item" href="index.html">Projects</a></li>
+
+            </ul>
         </div>
     </nav>
 
