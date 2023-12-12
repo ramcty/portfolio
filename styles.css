@@ -302,6 +302,7 @@ a {
     flex-direction: column;
     text-align: justify-all;
     margin: 20px auto;
+    padding-top: 230px;
 
 }
 
@@ -309,8 +310,44 @@ a {
 
     font-size: 50px;
     color: rgb(72, 72, 72);
+    text-align: center;
+}
 
+.heading a {
+    font-size: 1.1rem;
+    color: rgb(111, 111, 111);
 
+}
+
+.heading h2 {
+    margin: 20px;
+    color: rgb(111, 111, 111);
+    font-size: 1.1rem;
+    line-height: 2;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.heading .inline p {
+    text-align: center;
+
+}
+
+.heading .inline2 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: rgb(111, 111, 111);
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+
+.heading a:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .heading p {
@@ -319,6 +356,7 @@ a {
     color: rgb(111, 111, 111);
     font-size: 1.1rem;
     line-height: 2;
+    text-align: justify;
 }
 
 /*----Project 1----*/
@@ -440,6 +478,13 @@ a {
 
     .hamburger-menu {
         display: flex;
+    }
+
+    .heading .inline2 {
+
+        text-align: center;
+        padding-bottom: 50px;
+
     }
 
 
