@@ -492,7 +492,18 @@ a {
 
 @media screen and (max-width: 1000px) {
     .heading {
-        padding-top: 250px;
+        padding-top: 600px;
+
+    }
+    
+    .heading p {
+        width: 300px;
+    }
+    
+    .heading .inline2 {
+
+        text-align: center;
+        padding-bottom: 50px;
 
     }
 }
