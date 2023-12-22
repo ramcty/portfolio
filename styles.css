@@ -300,7 +300,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: justify-all;
+    text-align: left;
     margin: 20px auto;
     padding-top: 230px;
 
