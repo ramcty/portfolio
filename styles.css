@@ -300,7 +300,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: left;
     margin: 20px auto;
     padding-top: 230px;
 
@@ -329,11 +328,6 @@ a {
 
 }
 
-.heading .inline p {
-    text-align: left;
-
-}
-
 .heading .inline2 {
     font-size: 1.1rem;
     font-weight: lighter;
@@ -353,10 +347,11 @@ a {
 .heading p {
     max-width: 650px;
     margin: 60px;
+    padding-left: 20px;
     color: rgb(111, 111, 111);
     font-size: 1.1rem;
     line-height: 2;
-    text-align: justify;
+    text-align: left;
 }
 
 /*----Project 1----*/
@@ -495,25 +490,25 @@ a {
         padding-top: 300px;
 
     }
-    
-    .heading h1{
+
+    .heading h1 {
         font-size: 1.5rem;
     }
-    
+
     .menu__btn {
-    position: absolute;
+        position: absolute;
         right: 1px;
-    
-}
-    
-    .inline2{
+
+    }
+
+    .inline2 {
         display: none;
     }
-    
-    
+
+
     .heading p {
         width: 300px;
     }
-    
+
 
 }
