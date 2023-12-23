@@ -508,7 +508,8 @@ a {
     .aboutgrid {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
+        justify-self: center;
         overflow: hidden;
 
         padding: 80px;
@@ -517,6 +518,10 @@ a {
 
     .aboutgrid h1 {
         font-size: 1.4rem;
+    }
+
+    .about-contained p {
+        padding-left: 20px;
     }
 
 
