@@ -509,7 +509,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
+        overflow: hidden;
 
         padding: 80px;
         padding-left: 90px;
@@ -519,9 +519,6 @@ a {
         font-size: 1.4rem;
     }
 
-    .about-contained p {
-        max-width: 600px;
-    }
 
     .menu__btn {
         position: absolute;
