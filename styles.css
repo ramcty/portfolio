@@ -529,6 +529,14 @@ a {
         overflow: visible;
     }
 
+    .mble {
+        padding-left: 110px;
+    }
+
+    .mble2 {
+        padding-left: 90px;
+    }
+
     .aboutgrid h1 {
         font-size: 1.4rem;
     }
