@@ -80,6 +80,10 @@ a {
     cursor: default;
 }
 
+.vd1 {
+    max-width: 100%;
+}
+
 
 /* Hamburger Menu */
 
@@ -497,9 +501,6 @@ a {
 
     }
 
-
-
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -508,6 +509,9 @@ a {
 
     }
 
+    .vd1 {
+        max-width: 400px;
+    }
 
 
     .aboutgrid {
