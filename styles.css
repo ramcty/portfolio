@@ -80,6 +80,7 @@ a {
     cursor: default;
 }
 
+
 /* Hamburger Menu */
 
 #hamburger-nav {
@@ -294,6 +295,9 @@ a {
 /*----About Me----*/
 
 
+.firstgif {
+    max-width: 80%;
+}
 
 #about {
     background-color: azure;
@@ -306,7 +310,6 @@ a {
     margin: 0 auto;
     grid-column-gap: 100px;
     max-width: 100%;
-    background-color: azure;
     padding: 80px;
     padding-left: 240px;
 }
@@ -505,6 +508,8 @@ a {
 
     }
 
+
+
     .aboutgrid {
         display: flex;
         flex-direction: column;
@@ -514,6 +519,10 @@ a {
 
         padding: 80px;
         padding-left: 90px;
+    }
+
+    .head2 .aboutgrid {
+        overflow: visible;
     }
 
     .aboutgrid h1 {
