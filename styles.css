@@ -539,6 +539,7 @@ a {
 
     .aboutgrid h1 {
         font-size: 1.4rem;
+        font-weight: normal;
     }
 
     .about-contained p {
