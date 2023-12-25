@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
 
 /*global reset*/
 * {
@@ -25,7 +26,7 @@ figcaption {
 
 html {
 
-    font-family: 'Rokkit', sans-serif;
+    font-family: Open Sans, sans-serif;
     scroll-behavior: smooth;
 
 }
@@ -56,6 +57,7 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.3rem;
+    font-family: DM Sans;
 }
 
 a {
@@ -73,6 +75,7 @@ a {
 
 .logo {
     font-size: 1.6rem;
+    font-family: DM Sans;
     color: #5a686f;
 }
 
